@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+:root{
+	--color-negro:#222;
+	--menu-hover:#b68834;
+	--color-cafe:#b68834;
+	--color-gris:#777;
+	--fondo-header:#222;
+	--fondo-footer:#282932;
+	--color-blanco:#FFF;
+}
+body{
+
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+}
+.titulos1 {
+	color: var(--color-blanco);
+	font-size: 60px;
+}
+.titulos {
+	color: var(--color-negro);
+	font-weight: 800;
+	
+}
+.btn-light {
+	border-radius: 30px;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 0;
+}
+header{
+	position: relative;
+	width: 100%;
+	padding-bottom: 25%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+	background-image: url("../img/header-bg.jpg");
+	background-size: contain;
+}
+#about .imagen1 {
+	
+}
+#about h3 {
+	color: var(--color-cafe);
+	font-size: 12px;
+	padding-bottom: 0;
+}
+#about h4 {
+	font-size: 12px;
+	padding-top: 15px;
+}
+#about p {
+	font-size: 12px;
+	color: var(--color-gris);
+}
+#menu {
+	background-image: url("../img/menu-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+#menu .h22 {
+	text-align: center;
+	margin-top: 20px;
+}
+#menu .h42 {
+	text-align: center;
+	font-size: 10px;
+	color: var(--color-gris);
+}
+.icon {
+	width: 70%;
+	height: 90%;
+	background-color: var(--color-blanco);
+	border:1px solid #0FB083;
+	margin: 20px auto;
+	border-radius: 15px;
+	border-color: var(--color-blanco);
+}
+.icon:hover {
+	border-color: var(--menu-hover);
+}
+#menu .h32 {
+	font-size: 15px;
+	font-weight: 600;
+	
+}
+#menu .h33 {
+	font-size: 15px;
+	color: var(--color-cafe);
+	text-align: end;
+}
+
+#menu p {
+	font-size: 10px;
+}
+#kind .h22 {
+	text-align: center;
+	margin-top: 20px;
+}
+#kind .h42 {
+	text-align: center;
+	font-size: 10px;
+	color: var(--color-gris);
+}
+#kind .img7 {
+	
+}
+#Blog .h22 {
+	text-align: center;
+	margin-top: 20px;
+}
+#Blog .h42 {
+	text-align: center;
+	font-size: 10px;
+	color: var(--color-gris);
+}
+footer{
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: contain;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: var(--color-cafe);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
